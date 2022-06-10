@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -Weverything
+Style:
+  FullyQualifiedNamespaces: true
+Diagnostics:
+  UnusedIncludes: Strict
+Completion:
+  AllScopes: true
+InlayHints:
+  Enabled: Yes
+  ParameterNames: No
+  DeducedTypes: Yes
+Hover:
+  ShowAKA: Yes
